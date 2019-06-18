@@ -1,0 +1,54 @@
+oi = 1
+type(oi)
+<class 'int'>
+
+Boa prática = uma linha não ultrapasse 80 caracteres
+
+oi = 0.5
+print(oi)
+0.5
+
+oi = "acai"
+type(oi)
+<class 'str'>
+
+oi = True
+oi = False
+type(oi)
+<class 'bool'>
+
+oi = 1.5
+int(oi)
+1
+
+len("") - é um método para contar quantos elementos 
+eu tenho dentro de uma lista (comprimento)
+
+>>>Se não seguir a sintaxe do Python, vai dar pau<<<
+
+append - adiciona um elemento no final da lista
+pop - remove o último elemento da lista e também o retorna
+del - remove o elemento passando a sua posição e não retorna
+
+Comentar no Python #
+
+tuple() - é imutável, ao contrário da lista (como uma const) - ELE É RARAMENTE UTILIZADO
+    Para declarar uma tuple de um único elemento tem que colocar uma vírgula após o elemento
+    EX: a = (1,)
+        type(a)
+        <class 'tuple'>
+
+Dicionário - dict() - conjunto de chaves e valores (assim como um objeto no JS)
+    EX: cachorro = {'Nome': 'Totó','Raça':'Vira lata'}
+
+        Para acessar é só chamar a chave, pois os indices podem inverter a ordem
+        EX: print(cachorro[Raça])
+
+
+
+
+
+
+
+
+
